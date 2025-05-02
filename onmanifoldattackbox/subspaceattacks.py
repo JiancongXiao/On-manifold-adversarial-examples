@@ -6,7 +6,7 @@ from torch.utils.data import DataLoader
 import torch
 import torch.nn as nn
 import time
-from adversarialbox.utils import to_var
+from onmanifoldattackbox.utils import to_var
 
 # --- White-box attacks ---
 def idx2onehot(idx, n):
