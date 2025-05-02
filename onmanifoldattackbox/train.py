@@ -10,8 +10,8 @@ from collections import Iterable
 import torch
 import torch.nn as nn
 
-from adversarialbox.attacks import FGSMAttack, LinfPGDAttack
-from adversarialbox.utils import truncated_normal
+from onmanifoldattackbox.attacks import FGSMAttack, LinfPGDAttack
+from onmanifoldattackbox.utils import truncated_normal
 
 
 
